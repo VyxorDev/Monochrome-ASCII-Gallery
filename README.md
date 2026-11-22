@@ -22,6 +22,12 @@ A collection of original, copy-pasteable ASCII artwork made for terminals, code 
 | After Dark | Cities | 110 x 55 | [View art](art/cities/after-dark.txt) |
 | Moonlit Watchtower | Mobile | 44 x 40 | [View art](art/mobile/moonlit-watchtower.txt) |
 | Mandelbrot Pocket | Mobile | 44 x 32 | [View art](art/mobile/mandelbrot-pocket.txt) |
+| Twin Faces | High-resolution portraits | 300 x 84 | [View art](art/portraits/twin-faces.txt) |
+| High Detail Scene 02 | High-resolution portraits | 300 x 84 | [View art](art/portraits/high-detail-scene-02.txt) |
+
+## High-resolution pieces
+
+The two 300-column artworks in [`art/portraits/`](art/portraits/) are best viewed in a desktop text editor or the GitHub **Raw** view with a small monospaced font and word-wrap disabled. They are plain monochrome ASCII, not screenshots.
 
 ## Mobile-friendly previews
 
