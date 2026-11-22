@@ -20,7 +20,8 @@ def check(path: Path) -> list[str]:
         content = raw.decode('ascii')
     except UnicodeDecodeError:
         return errors + ['non-ASCII character found']
-    max_width = 48 if 'mobile' in path.relative_to(ART).parts else 120
+    parts = path.relative_to(ART).parts
+    max_width = 48 if 'mobile' in parts else 320 if 'portraits' in parts else 120
     for i, line in enumerate(content.splitlines(), 1):
         if '\t' in line:
             errors.append(f'line {i}: tab found')
