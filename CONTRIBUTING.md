@@ -6,7 +6,7 @@ We collect monochrome, detailed, **original** text art. If you want to share a p
 2. Use only printable ASCII characters (space through `~`), ordinary newlines, and no tabs.
 3. No ANSI color escapes, emoji, or embedded image data.
 4. Give the piece a recognizable silhouette, meaningful textures, and deliberate spacing.
-5. Keep desktop pieces <= 120 columns and mobile pieces <= 48 columns.
+5. Keep standard desktop pieces <= 120 columns, mobile pieces <= 48 columns, and high-resolution portrait pieces in `art/portraits/` <= 320 columns.
 6. Ensure you created the art or own the rights to publish it; no uncredited third-party copy/paste.
 7. Add its title, dimensions, and path to the README gallery table.
 8. Run `python scripts/verify_art.py` and open a pull request describing your piece.
